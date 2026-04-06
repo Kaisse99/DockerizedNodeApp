@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 app.get('/', (req, res) => {
-    res.send('Hello, Dockerized Node.js APP! Actions Workflow is completed.');
+    res.send('Hello, Dockerized Node.js APP! Actions Workflow is completed. TEST');
 });
 
 app.listen(PORT, () => {
